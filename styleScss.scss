@@ -1,0 +1,27 @@
+@mixin normalText ($color:red) {
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 400;
+  color: $color;
+
+}
+
+.class1 {
+  border: 1px solid black;
+  @include normalText;
+}
+.class2 {
+  @include normalText;
+  border: 1px solid black;
+  
+}
+.class3 {
+  @include normalText;
+  border: 1px solid black;
+ 
+}
+.class4 {
+  @include normalText;
+  border: 1px solid black;
+  
+}
